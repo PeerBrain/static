@@ -1,0 +1,60 @@
+@media only screen and (max-width: 768px) {
+    .auth-content {
+         width: 100%;
+    }
+    .card-body {
+         padding: 20px;
+    }
+    .fa {
+         margin-top: 20px;
+    }
+ }
+
+.disabled {
+          pointer-events: none;
+          cursor: default;
+ }
+ a.large {
+        font-size: 2.875em;
+ }
+* {
+  box-sizing: border-box;
+}
+
+label span {
+  display: block;
+  opacity: .75;
+  font-size: 16px;
+  margin: 10px 0 5px 5px;
+}
+
+
+p {
+  margin-top: 1em;
+}
+
+p.hidden {
+  display: none;
+}
+
+p.error, p.ok {
+  border: 1px solid;
+  padding: 15px 10px;  
+  font-weight: bold;
+  border-radius: 5px;
+}
+p.error {
+  background-color: #f8807c;
+  border-color: #ef6760;
+  color: #420808;
+}
+
+p.ok {
+  color: #366036;
+  background-color: #b2ddae;
+border-color: #91bd92;
+}
+
+a {
+  color: #404040;
+}
